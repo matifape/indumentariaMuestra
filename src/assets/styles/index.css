@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fuente-primaria: 'Anton', sans-serif;
+  --fuente-secundaria: 'Montserrat', sans-serif;
+  
+}
+
+body {
+ /* background-image: linear-gradient(to bottom, #eaebd0, #f2b6b6); */
+ background-color: white;
+  
+  
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+
+button {
+  cursor: pointer;
+  border: none;
+  
+}

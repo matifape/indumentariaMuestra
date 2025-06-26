@@ -1,0 +1,46 @@
+
+:root {
+  --fuente-primaria: 'Anton', sans-serif;
+  --fuente-secundaria: 'Montserrat', sans-serif;
+  
+}
+
+
+
+.title{
+    font-family: var(--fuente-primaria);
+    text-align: center;
+    margin: 4rem auto;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.paginacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+
+
+}
+
+.paginacion button {
+    background-color: #3c3c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: var(--fuente-secundaria);
+    font-size: 1.5rem;
+    display: flex;
+}

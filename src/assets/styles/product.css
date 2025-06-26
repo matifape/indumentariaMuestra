@@ -1,0 +1,128 @@
+:root {
+  --fuente-primaria: 'Anton', sans-serif;
+  --fuente-secundaria: 'Montserrat', sans-serif;
+  
+}
+
+
+.mainContainer{
+  border: 1px solid #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: rgb(228, 226, 226);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px black;
+}
+
+
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  min-height: 400px;
+
+}
+
+.infoContainer img{
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  width: 70%;
+  
+
+  
+}
+
+.descripcion{
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: var(--fuente-secundaria);
+  font-weight: 500;
+  
+}
+
+.colorSelection, .talleSelection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selectionTipe{
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+
+.botonColor{
+  padding: 0.4rem 1.4rem;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 0 5px black;
+  
+  margin: 1rem 6px;
+  font-family: var(--fuente-secundaria);
+  font-weight: 800;
+  font-size: 1rem;
+  ;
+}
+
+
+.botonColor.seleccionado {
+  background-color: #121111;
+  color: white;
+  
+}
+
+h2 {
+  
+  font-family: var(--fuente-secundaria);
+}
+
+
+p {
+  font-family: var(--fuente-primaria);
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+.wtp{
+  padding: 0.4rem 1.8rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 5px black;
+  border-radius: 12px;
+  font-family: var(--fuente-secundaria);
+  font-weight: 900;
+  font-size: 1.2rem;
+  transition: 0.5s ease-in-out;
+}
+
+.wtp:hover {
+  background-color: #1c1b1c;
+  color: white;
+  cursor: pointer;
+}
+
+
+@media(max-width: 600px) {
+  .mainContainer {
+    width: 90%;
+  }
+
+  .infoContainer img {
+    width: 100%;
+  }
+
+  .descripcion {
+    font-size: 1rem;
+  }
+
+  .wtp {
+    font-size: 1rem;
+    padding: 0.4rem 1.2rem;
+  }
+}

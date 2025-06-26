@@ -1,0 +1,98 @@
+:root {
+  --fuente-primaria: 'Anton', sans-serif;
+  --fuente-secundaria: 'Montserrat', sans-serif;
+  
+}
+
+.prueba-header {
+ background-color: transparent;
+  padding: 0.4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  
+  padding: 1rem 2rem;
+}
+
+h1 {
+  font-family: var(--fuente-primaria);
+  font-size: clamp(1rem, 2vw, 3rem);
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 400;
+  display: flex;
+  
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.logoImg {
+  width: 20px;
+}
+
+.spanwtp {
+  font-size: clamp(0.6rem, 1vw, 1rem);
+}
+
+.messagePrueba {
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  font-family: var(--fuente-primaria);
+  color: rgb(39, 37, 37);
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+  letter-spacing: 2px;
+}
+
+.iconowtp {
+  margin-right: 0.5rem;
+}
+
+.messagePrueba:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .prueba-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  
+  h1 {
+    font-size: 0.8rem;
+  }
+
+  .messagePrueba {
+    padding: 0.2rem 0.6rem;
+    border-radius: 8px;
+    font-family: var(--fuente-primaria);
+    color: rgb(128, 3, 24);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .iconowtp {
+    margin: 0;
+  }
+  .spanwtp {
+    display: none;
+  }
+}

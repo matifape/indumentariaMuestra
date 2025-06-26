@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "nombre": "Remera básica blanca",
+        "descripcion": "Remera 100% algodón, cuello redondo.",
+        "precio": 5500,
+        "color": ["Blanco","rojo", "marron"],
+        "talle": [
+            "S",
+            "M",
+            "L"
+        ],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "remera"
+    },
+    {
+        "id": 2,
+        "nombre": "Remera clasica negra",
+        "descripcion": "Remera 100% algodón, cuello redondo.",
+        "precio": 5500,
+        "color": ["verde","naranja", "marron"],
+        "talle": [
+            "S",
+            "M",
+            "L"
+        ],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "niña",
+        "tipo" : "remera"
+    },
+    {
+     "id": 3,
+        "nombre": "Remera clasica negra",
+        "descripcion": "Remera 100% algodón, cuello redondo.",
+        "precio": 5500,
+        "color": ["verde","naranja", "marron"],
+        "talle": [
+            "S",
+            "M",
+            "L"
+        ],
+        "imagen":"https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "niña",
+        "tipo" : "remera"
+    },
+    
+    {
+     "id": 5,
+        "nombre": "pantalon sastrero",
+        "descripcion": "pantalon sastrero",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "pantalon"
+        
+    },
+     {
+     "id": 6,
+        "nombre": "pantalon de jean",
+        "descripcion": "pantalon clasico",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L", "XL"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "pantalon"
+        
+    },
+     {
+     "id": 7,
+        "nombre": "borsegos",
+        "descripcion": "ideal para cada dia",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "zapatos"
+        
+    },
+     {
+     "id": 8,
+        "nombre": "cinturon de cuero",
+        "descripcion": "clasico y elegante",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "cinturon"
+        
+    },
+     {
+     "id": 9,
+        "nombre": "aritos de plata",
+        "descripcion": "ideal para cada dia",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "niña",
+        "tipo" : "accesorios"
+        
+    },
+     {
+     "id": 10,
+        "nombre": "aritos de plata",
+        "descripcion": "para noches especiales",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "accesorios"
+        
+    },
+     {
+     "id": 11,
+        "nombre": "reloj de pulsera",
+        "descripcion": "convina con todo",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "accesorios"
+        
+    },
+     {
+     "id": 12,
+        "nombre": "zapatillas clasicas",
+        "descripcion": "para el dia a dia",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "zapatos"
+        
+    },
+     {
+     "id": 13,
+        "nombre": "remera en V",
+        "descripcion": "de algodon",
+        "precio": 15000,
+        "color":["negro", "blanco", "azul"],
+        "talle": ["S", "M", "L"],
+        "imagen": "https://placehold.co/400x600/ca2b1d/white?text=Coming+Soon&font=roboto",
+        "categoria": "mujer",
+        "tipo" : "remera"
+    
+    }
+    
+
+]
