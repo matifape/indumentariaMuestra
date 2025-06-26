@@ -40,7 +40,7 @@ const Pruebahero = () => {
           data-aos="fade-up"
           data-aos-duration="3000"
           className="imagen3"
-          src="/public/img/imagen3.jpg"
+          src="/img/imagen3.jpg"
           alt=""
         />
       </div>
