@@ -5,7 +5,7 @@ const Pruebahero = () => {
   return (
     <>
       <div className="spanContainer">
-        <img className="fondoImagen" src="../img/fondo1.jpg" alt="fondo" />
+        <img className="fondoImagen" src="/img/fondo1.jpg" alt="fondo" />
         <h2 data-aos="fade-up" data-aos-duration="3000" className="prueba">
           TuIndumentaria
         </h2>
