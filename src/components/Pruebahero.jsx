@@ -31,7 +31,7 @@ const Pruebahero = () => {
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           className="imagenPrueba"
-          src="/public/img/imagen4.jpg"
+          src="/img/imagen4.jpg"
           alt=""
         />
       </div>
